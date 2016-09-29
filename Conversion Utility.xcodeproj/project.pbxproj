@@ -12,6 +12,8 @@
 		4D460B2C1D9D4FB600F738A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D460B2A1D9D4FB600F738A8 /* Main.storyboard */; };
 		4D460B2E1D9D4FB600F738A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D460B2D1D9D4FB600F738A8 /* Assets.xcassets */; };
 		4D460B311D9D4FB600F738A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D460B2F1D9D4FB600F738A8 /* LaunchScreen.storyboard */; };
+		4D460B391D9D504000F738A8 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D460B381D9D504000F738A8 /* MoneyViewController.swift */; };
+		4D460B3B1D9D506A00F738A8 /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D460B3A1D9D506A00F738A8 /* TempViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4D460B2D1D9D4FB600F738A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D460B301D9D4FB600F738A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D460B321D9D4FB600F738A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D460B381D9D504000F738A8 /* MoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		4D460B3A1D9D506A00F738A8 /* TempViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				4D460B281D9D4FB600F738A8 /* ViewController.swift */,
 				4D460B2A1D9D4FB600F738A8 /* Main.storyboard */,
 				4D460B2D1D9D4FB600F738A8 /* Assets.xcassets */,
+				4D460B381D9D504000F738A8 /* MoneyViewController.swift */,
+				4D460B3A1D9D506A00F738A8 /* TempViewController.swift */,
 				4D460B2F1D9D4FB600F738A8 /* LaunchScreen.storyboard */,
 				4D460B321D9D4FB600F738A8 /* Info.plist */,
 			);
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D460B3B1D9D506A00F738A8 /* TempViewController.swift in Sources */,
+				4D460B391D9D504000F738A8 /* MoneyViewController.swift in Sources */,
 				4D460B291D9D4FB600F738A8 /* ViewController.swift in Sources */,
 				4D460B271D9D4FB600F738A8 /* AppDelegate.swift in Sources */,
 			);
