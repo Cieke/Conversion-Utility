@@ -10,6 +10,21 @@ import UIKit
 
 class MoneyViewController: UIViewController {
 
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBAction func convertButton(_ sender: UIButton) {
+        valueField.resignFirstResponder()
+        if let sterling = Double(valueField.text!) {
+            let result = sterling * 1.61
+            resultLabel.text = "Result : \(result) Dollars"
+        }
+        
+    }
+    
+    @IBOutlet weak var valueField: UITextField!
+   
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

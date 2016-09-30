@@ -10,6 +10,18 @@ import UIKit
 
 class TempViewController: UIViewController {
 
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBAction func convertButton(_ sender: UIButton) {
+        valueField.resignFirstResponder()
+        
+        if let temp_celsius = Int(valueField.text!){
+            let result = temp_celsius * 9 / 5 + 32
+            resultLabel.text = "Result: \(result) Fahrenheit"
+        }
+    }
+    
+    @IBOutlet weak var valueField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
